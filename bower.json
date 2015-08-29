@@ -1,0 +1,29 @@
+{
+  "name": "Bootstrap Template",
+  "version": "0.0.1",
+  "description": "Commerce Template",
+  "main": "index.html",
+  "authors": [
+    "Lisel Nicole Jensen"
+  ],
+  "license": "MIT",
+ // "ignore": [
+//    "**/.*",
+//    "node_modules",
+//    "bower_components",
+//    "test",
+//    "tests"
+//  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.4.0"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/fonts/**",
+        "dist/js/bootstrap.min.js"
+      ]
+    }
+  }
+}
